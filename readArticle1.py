@@ -1,4 +1,4 @@
-f = open('article_on_compatible_personality_types.txt', 'r')
+f = open('assets/compatiblePersonalitiesArticle.txt', 'r')
 
 numbers = []
 for i in range(1, 17):
@@ -14,4 +14,4 @@ for line in f:
         data.append([info[0], info[1].split(", ")])
     last = line
 
-open("personality_compatibility.txt", 'w').write(f"{data}")
+open("assets/compatiblePersonalitiesNestedList.txt", 'w').write(f"{data}")

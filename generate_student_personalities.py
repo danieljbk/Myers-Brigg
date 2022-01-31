@@ -16,6 +16,6 @@ for i in range(350):
     else:
         student_personalities.append(generated_student)
 
-with open("student_personalities.txt", 'w') as f:
+with open("assets/studentPersonalities.txt", 'w') as f:
     for i in student_personalities:
         print(i[0], i[1], file=f)

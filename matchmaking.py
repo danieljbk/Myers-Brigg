@@ -1,4 +1,3 @@
-
 def grouping_algorithm(student_data, members_per_group, duplicate_personality_limit):
     # student_data is a list of students whom we want to place into groups. Each student is a list containing their [personality, full name]
     # members_per_group represents the size of the groups we will place students into
@@ -98,7 +97,7 @@ def grouping_algorithm(student_data, members_per_group, duplicate_personality_li
     return successfully_matched_groups_of_students, ungrouped_students
 
 
-student_personalities_path = "/Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/Daniel's Files/Coding/Projects/Small Projects/myers-brigg/student_personalities.txt"
+student_personalities_path = "assets/studentPersonalities.txt"
 student_data = open(
     student_personalities_path, 'r').readlines()
 student_data = list(map(lambda student: student.strip(
