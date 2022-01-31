@@ -1,9 +1,11 @@
 def grouping_algorithm(student_data, members_per_group, duplicate_personality_limit):
-    # student_data is a list of students whom we want to place into groups. Each student is a list containing their [personality, full name]
-    # members_per_group represents the size of the groups we will place students into
-    # duplicate_personality_limit represents the maximum number of duplicate personalities that we want in each group
+    '''
+    student_data is a list of students whom we want to place into groups. Each student is a list containing their [personality, full name]
+    members_per_group represents the size of the groups we will place students into
+    duplicate_personality_limit represents the maximum number of duplicate personalities that we want in each group
+    '''
 
-    # for each personality, which is the first term in each list,the three most compatible personalities are listem in the second term of each list.
+    # for each personality, which is the first term in each list, the three most compatible personalities are listem in the second term of each list.
     compatibility_chart = [
         ['ESFP', ['ESFJ', 'ESTP', 'ISFP']],
         ['ESTP', ['ESTJ', 'ESFP', 'INFJ']],
@@ -25,7 +27,8 @@ def grouping_algorithm(student_data, members_per_group, duplicate_personality_li
 
     '''
     First, we want to figure out, from our data, which students are compatible with each other.
-    There are many ways to record this data, and the method we chose is to find out all other students that each student is compatible with.'''
+    There are many ways to record this data, and the method we chose is to find out all other students that each student is compatible with.
+    '''
 
     all_compatible_students_for_each_students = []
 
@@ -54,7 +57,8 @@ def grouping_algorithm(student_data, members_per_group, duplicate_personality_li
     And, we don't want a student who has already been placed in a group to be placed again in another group.
     To handle that issue, when we finalize a group, we will also keep track of the students in the group.
     As we continue, we check whether each student we analyze has already been placed.
-    If the group we are analyzing does not meet our standards (of a certain number of members and a duplicate limit), we will put the group off to the side.'''
+    If the group we are analyzing does not meet our standards (of a certain number of members and a duplicate limit), we will put the group off to the side.
+    '''
 
     successfully_matched_groups_of_students = []
     students_who_have_been_placed_in_a_group = []
@@ -86,7 +90,8 @@ def grouping_algorithm(student_data, members_per_group, duplicate_personality_li
     While our algorithm was able to group most of the students, it could not group all of them. 
     The remaining students, unluckily, were not placed in a perfect group. 
     To group these students, we will need to create less-diverse groups.
-    We will now place compatible personalities in a single group without consideration for duplicates.'''
+    We will now place compatible personalities in a single group without consideration for duplicates.
+    '''
 
     ungrouped_students = []
     for group in unsuccessful_groups:
@@ -106,7 +111,7 @@ student_data = list(map(lambda student: student.strip(
 members_per_group = 4
 
 # we start with the limit of 2 personalities because choosing 1 as the limit actually leads to much less good groups forming
-# this is the initial run of the function, for which we use the actual "student_date".
+# this is the initial run of the function, for which we use the actual "student_data".
 successfully_matched_groups_of_students, ungrouped_students = grouping_algorithm(
     student_data, members_per_group, 2)
 
@@ -132,12 +137,12 @@ with open('result.txt', 'w') as result:
 
 
     '''
-    For our final step, we will output our results while distinguishing between the perfect groups and the flawed groups.'''
+    For our final step, we will output our results while distinguishing between the perfect groups and the flawed groups.
+    '''
 
     print('\n'*1, '*'*25, '\n'*1, file=result)
 
-    print(
-        f"Formed {len(successfully_matched_groups_of_students)} Compatible Groups:", file=result)
+    print(f"Formed {len(successfully_matched_groups_of_students)} Compatible Groups:", file=result)
 
     group_count = 1
     grouped_students = []
