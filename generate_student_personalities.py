@@ -6,7 +6,7 @@ personalities = ['ISTJ', 'ISTP', 'ISFJ', 'ISFP',
                  'ESTP', 'ESTJ', 'ESFP', 'ESFJ',
                  'ENFP', 'ENFJ', 'ENTP', 'ENTJ', ]
 
-# linked list containing 300 of [personality type, full name]
+# nested list containing 300 of [personality type, full name]
 student_personalities = []
 for i in range(350):
     generated_student = [
