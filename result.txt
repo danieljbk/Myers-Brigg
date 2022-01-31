@@ -1,0 +1,498 @@
+Still ungrouped:
+    22 [['ESFP', 'William Lewis'], ['ESTP', 'Dennis Roby'], ['ENFP', 'Edward Behrmann'], ['ISTP', 'Michael Dunn'], ['ISTP', 'Demetrius Tisdale'], ['ISTP', 'Christopher Simmons'], ['ISTP', 'Myron Tosten'], ['ISTP', 'Wilber Preston'], ['ISTP', 'Mark Taylor'], ['ISTP', 'Lawrence Santana'], ['ISTP', 'Marcus Vinson'], ['ISTP', 'Andrew Pipkin'], ['ISTP', 'Keith Kent'], ['ISTP', 'Christopher Howard'], ['ISTP', 'Jose Blackman'], ['ISTP', 'Danny Anderson'], ['ISFJ', 'Ismael Vogt'], ['ISFJ', 'William Barness'], ['ISFJ', 'James Sagers'], ['ISFJ', 'William Surano'], ['ISFJ', 'Tomas Roney'], ['ISFJ', 'Gregg Fontenot']]
+
+ ************************* 
+
+Formed 82 Compatible Groups:
+
+GROUP 1:
+    1. Jack Brown (ESFJ)
+    2. Charles Hedley (ESTJ)
+    3. Ryan Geisinsky (ISTP)
+    4. Charlie Landrum (ESTP)
+
+GROUP 2:
+    1. Gregory Marco (ISFJ)
+    2. Adam Davis (ISFP)
+    3. Joshua Burt (ISFP)
+    4. Michael Meckes (ESFJ)
+
+GROUP 3:
+    1. Craig Hinson (ESFJ)
+    2. John Spano (ESTP)
+    3. Millard Hokanson (ESFJ)
+    4. William Worrall (ESTP)
+
+GROUP 4:
+    1. Todd Jackson (INFJ)
+    2. Ernest Aguilera (INTJ)
+    3. James Butcher (INTJ)
+    4. Andrew Julian (INFP)
+
+GROUP 5:
+    1. Johnny Jacobsen (ENTP)
+    2. Anthony Battey (ENFJ)
+    3. Chad Pak (ENFP)
+    4. John Coulombe (ENFP)
+
+GROUP 6:
+    1. Richard Wood (INTP)
+    2. Cody Loew (INFP)
+    3. Rene George (ENTP)
+    4. Michael Flores (ENFP)
+
+GROUP 7:
+    1. David Boren (INFJ)
+    2. William Mathis (INFJ)
+    3. Guadalupe King (ENFP)
+    4. Raul Mello (ENFP)
+
+GROUP 8:
+    1. Adam Ray (INTJ)
+    2. Daniel Mccall (INTP)
+    3. Marty Hagar (ENTJ)
+    4. James Vanes (ENTJ)
+
+GROUP 9:
+    1. Wilson Uren (INTP)
+    2. Abraham Fosnaugh (INTP)
+    3. Donald Marshall (INFJ)
+    4. Mario Travis (INFP)
+
+GROUP 10:
+    1. Alvin Harwood (ESFP)
+    2. Rafael Mangione (ISFJ)
+    3. Donald Moore (ISFJ)
+    4. Joe Rogers (ESFP)
+
+GROUP 11:
+    1. Frederick Miller (ISFJ)
+    2. Rafael Thomas (ISFJ)
+    3. Brian Barber (ESFJ)
+    4. Harold Fontenot (ESFP)
+
+GROUP 12:
+    1. Thomas Brinkly (ISFP)
+    2. Stephen Garrette (ESFP)
+    3. Ronnie Mcdougle (INFP)
+    4. Charlie Dykstra (INFP)
+
+GROUP 13:
+    1. William Bennett (ESTP)
+    2. Robert Struck (ESFJ)
+    3. Roger Jackson (ESFJ)
+    4. Roland Helbig (ESTP)
+
+GROUP 14:
+    1. Cedrick Spencer (INTP)
+    2. Jason Ochoa (INTP)
+    3. James Horowitz (INFJ)
+    4. Antonio Moore (INFJ)
+
+GROUP 15:
+    1. Curt Gonzalez (ISFJ)
+    2. James Leigh (ISFJ)
+    3. Matthew Garner (ESFP)
+    4. Donald Oates (ESFP)
+
+GROUP 16:
+    1. Warren Frazier (ISFP)
+    2. Michael Gallegos (ESFJ)
+    3. Brian Donati (ESFJ)
+    4. Pablo Jacks (ISFP)
+
+GROUP 17:
+    1. Mark Hawkins (INTP)
+    2. David Cuff (INTP)
+    3. Elliott Mclemore (INFP)
+    4. Dwayne Momeni (INFJ)
+
+GROUP 18:
+    1. Jarvis Ortiz (ISFJ)
+    2. Robert Nealon (ISFJ)
+    3. Nestor Davis (ENFJ)
+    4. Edwin Patel (ENFJ)
+
+GROUP 19:
+    1. Roger Grant (ESTJ)
+    2. Daniel Ramage (ESTJ)
+    3. Don Ogle (ESFP)
+    4. Chester Sandoval (ESFP)
+
+GROUP 20:
+    1. Marvin Vaden (ISFJ)
+    2. Ernesto Perryman (ISFJ)
+    3. Billy Churchill (ENFJ)
+    4. Anthony Carnes (ENFJ)
+
+GROUP 21:
+    1. Ivan Mooney (ESTP)
+    2. Dean Mcquillen (ESTP)
+    3. Edward West (ESFJ)
+    4. Fred Hall (ESFJ)
+
+GROUP 22:
+    1. Timothy Papa (INTJ)
+    2. Walter Mccoy (INTP)
+    3. John Banks (ENTJ)
+    4. David Williamson (INTJ)
+
+GROUP 23:
+    1. Pedro Wellman (INTJ)
+    2. Edwin Krenz (INTJ)
+    3. Glenn Dempsy (INFP)
+    4. Justin Bonanno (INFP)
+
+GROUP 24:
+    1. Jon Welsh (ENFP)
+    2. James Rappold (ENFP)
+    3. Charles Britt (ENTJ)
+    4. Kenneth Sanders (ENFJ)
+
+GROUP 25:
+    1. Christian Green (ISFP)
+    2. Ron Johnson (ISFP)
+    3. Robert Mccrae (ESFJ)
+    4. Ronnie Knop (ESFJ)
+
+GROUP 26:
+    1. Sebastian Easley (ISTP)
+    2. William Waller (ESTJ)
+    3. Michael Weech (ISTP)
+    4. Jacob Thoennes (ESTJ)
+
+GROUP 27:
+    1. Cornelius Halford (INTP)
+    2. Evan Lakey (INTP)
+    3. Dennis Pemberton (INTJ)
+    4. Eric Banta (INTJ)
+
+GROUP 28:
+    1. Bernard Carey (ISTP)
+    2. Jason Armantrout (ISTP)
+    3. Paul Meade (ESTP)
+    4. James Lewis (ESTJ)
+
+GROUP 29:
+    1. Albert Long (ISFP)
+    2. Samuel Marquez (ISFP)
+    3. Matthew Zima (ESFJ)
+    4. Victor Wind (ESFJ)
+
+GROUP 30:
+    1. John Erickson (ESTP)
+    2. John Bernet (ESTP)
+    3. James Rogers (ESFJ)
+    4. Cody Marsh (ESFJ)
+
+GROUP 31:
+    1. Lonnie Torres (ENTP)
+    2. Richard Williams (ENFP)
+    3. Luis Green (ENFP)
+    4. Eric Ricley (ENFJ)
+
+GROUP 32:
+    1. George Page (ESTJ)
+    2. Brian Byrd (ESTJ)
+    3. William Pitts (ESFP)
+    4. James Carmack (ESFP)
+
+GROUP 33:
+    1. Thomas Joseph (ISFP)
+    2. Anthony Wilkins (ISFP)
+    3. Richard Wiggins (ESFJ)
+    4. Robert Glass (ESFJ)
+
+GROUP 34:
+    1. Dino Whitley (ENTP)
+    2. Steven Folk (ENFJ)
+    3. Robert Cox (ENFP)
+    4. David Taylor (ENFJ)
+
+GROUP 35:
+    1. Michael Albin (ENTP)
+    2. Harry Costello (ENTP)
+    3. Chris Herring (ENFP)
+    4. Joshua Henry (ENFP)
+
+GROUP 36:
+    1. Russell Waldeck (INTJ)
+    2. Glen Jones (INTJ)
+    3. Ernest Mccarty (INFP)
+    4. Frank Costello (INFP)
+
+GROUP 37:
+    1. Bradley Collins (ESTP)
+    2. Theodore Wilson (ISFP)
+    3. Darren Breese (ISFP)
+    4. Scott Jones (ESTP)
+
+GROUP 38:
+    1. Harvey Choe (ISTP)
+    2. Jason Costales (ISTP)
+    3. Stanley Reed (ESTJ)
+    4. John Lake (ESTJ)
+
+GROUP 39:
+    1. Dean Erickson (INFJ)
+    2. Maurice Warne (INFJ)
+    3. John Loper (ESFP)
+    4. William Slaubaugh (ESFP)
+
+GROUP 40:
+    1. Ryan Mitchell (ESFP)
+    2. Guy Campbell (ESFP)
+    3. Toney Cannon (ISFP)
+    4. Philip Mcdonald (ISFP)
+
+GROUP 41:
+    1. Martin Oreilly (ENTP)
+    2. Fred Mathison (ENTP)
+    3. John Clarkson (ENFJ)
+    4. Earl Edson (ENFJ)
+
+GROUP 42:
+    1. Raymond Krier (ESFJ)
+    2. Adam Ranalli (ESTP)
+    3. Carlos Quincel (ESTP)
+    4. Erick Mitchell (ESFJ)
+
+GROUP 43:
+    1. Andrew Collin (ENTP)
+    2. Jessie Galbraith (ENFJ)
+    3. Michael Holmes (INTJ)
+    4. Jose Revels (ENTP)
+
+GROUP 44:
+    1. Robert Kahrs (ISFP)
+    2. Anthony Johnson (ISFP)
+    3. Benny Panza (ESFJ)
+    4. Kyle Rosier (ESFJ)
+
+GROUP 45:
+    1. Edward Persaud (ISTP)
+    2. Michael Slaughter (ISTP)
+    3. Robert Norris (ESTJ)
+    4. William Spalla (ESTJ)
+
+GROUP 46:
+    1. Joseph Graham (INFJ)
+    2. David Martin (INFJ)
+    3. Ronald Hall (ESFP)
+    4. Trey Breed (ESFP)
+
+GROUP 47:
+    1. Rudy Pittman (ISFP)
+    2. Dan Marr (ISFP)
+    3. James Morris (ESFJ)
+    4. Aldo Bell (ESFJ)
+
+GROUP 48:
+    1. Paul Leon (ISFP)
+    2. Gordon Betts (ISFP)
+    3. Steven Boyd (ESTP)
+    4. Luis Holt (ESTP)
+
+GROUP 49:
+    1. Antonio Jimeson (INTP)
+    2. Timothy Harrison (INTP)
+    3. Nicholas Alvarez (ENTJ)
+    4. Marcelino Davis (ENTJ)
+
+GROUP 50:
+    1. Robert Epps (ENFP)
+    2. Paul Longhurst (ENFP)
+    3. Gerald Dockery (INFP)
+    4. Michael Massie (INFP)
+
+GROUP 51:
+    1. Norman Miller (ENFP)
+    2. Quincy Khan (ENFP)
+    3. Angel Arndt (INFP)
+    4. Frank Leiker (INFP)
+
+GROUP 52:
+    1. Edward Watson (ESFP)
+    2. Angel Ballard (ESFP)
+    3. William Schlicht (INFP)
+    4. Larry Parrott (INFP)
+
+GROUP 53:
+    1. Carl Capley (ISTP)
+    2. Todd Davis (ISTP)
+    3. Aaron Shelton (ESTJ)
+    4. Shawn Borgia (ESTJ)
+
+GROUP 54:
+    1. James Warnes (ENFP)
+    2. Bryan Houle (ENFP)
+    3. Kerry Cummins (ENTP)
+    4. Lance Vincente (INFP)
+
+GROUP 55:
+    1. Brian Cuellar (ISTP)
+    2. Mark Paniagua (ISTP)
+    3. Elbert Bravo (ESTJ)
+    4. Cedric Oelke (ESTP)
+
+GROUP 56:
+    1. James Diaz (INFJ)
+    2. Andrew Scholl (INFJ)
+    3. Thomas Valentine (ESFP)
+    4. John Nieves (ESFP)
+
+GROUP 57:
+    1. Nicholas Bennett (INTP)
+    2. Kirk Norwood (INTP)
+    3. Ryan Downs (ENTJ)
+    4. Thaddeus Vallee (ENTJ)
+
+GROUP 58:
+    1. Charles Gillette (ISFP)
+    2. Charles Quesada (ISFP)
+    3. Billy Hogue (ESTP)
+    4. Edward Berczel (ESTP)
+
+GROUP 59:
+    1. Michael Woodward (ISFP)
+    2. Terence Johnson (INFP)
+    3. William Ward (ESFP)
+    4. Phil Bryant (ISFP)
+
+GROUP 60:
+    1. Donald Galvan (INTP)
+    2. Daniel Leavell (INTP)
+    3. Anthony Rock (ENTJ)
+    4. Harold Nelson (ENTJ)
+
+GROUP 61:
+    1. Donald Wiglesworth (ENFJ)
+    2. Ronald House (ENFJ)
+    3. Luis Macdowell (INFJ)
+    4. James Williams (INFJ)
+
+GROUP 62:
+    1. Curtis Horne (INTJ)
+    2. Dennis Kessel (INTJ)
+    3. Lonnie Lock (INFP)
+    4. Ernest Kelley (INFP)
+
+GROUP 63:
+    1. Leonard Greenan (ENTP)
+    2. Paul Sears (ENFP)
+    3. Ryan Gordon (ENTP)
+    4. Clint Crowder (ENFP)
+
+GROUP 64:
+    1. Michael Lanier (ENTP)
+    2. David Alvear (ENFP)
+    3. Roderick Stones (ENTP)
+    4. Arnoldo Hall (ENFP)
+
+GROUP 65:
+    1. David Davenport (ISFJ)
+    2. Charlie Carreras (ISFJ)
+    3. Brian Ramirez (ENFJ)
+    4. James Lindberg (ENFJ)
+
+GROUP 66:
+    1. David Robertson (ISFJ)
+    2. William Peters (ISFJ)
+    3. Jeffery Harris (ENFJ)
+    4. Chad Farmer (ENFJ)
+
+GROUP 67:
+    1. David Browder (INTP)
+    2. Micheal Moorhouse (INTP)
+    3. James Hern (INFJ)
+    4. Gerald Wiersteiner (INFJ)
+
+GROUP 68:
+    1. Gregory Keys (ISFJ)
+    2. Richard Gomez (ISFJ)
+    3. Jesse Shuman (ENFJ)
+    4. Jeff Easterling (ENFJ)
+
+GROUP 69:
+    1. Bobby Mansi (ESTP)
+    2. Robert Windmeyer (ESTP)
+    3. Lowell Walker (ISFP)
+    4. Anthony Goers (ISFP)
+
+GROUP 70:
+    1. Walter Smith (ENFJ)
+    2. Anthony Murdock (ENFJ)
+    3. Roy Panella (INFJ)
+    4. Ron Thompson (INFJ)
+
+GROUP 71:
+    1. Pablo Losoya (ESTP)
+    2. Stephen Barnes (ESTP)
+    3. Victor Hinton (ESFJ)
+    4. Virgil Johnson (ISFP)
+
+GROUP 72:
+    1. Herman Lemaster (ISFJ)
+    2. David George (ISFJ)
+    3. Christopher Coleman (ESFP)
+    4. William Bay (ESFP)
+
+GROUP 73:
+    1. Mark Cooper (ENTJ)
+    2. Kevin Ramey (ENTJ)
+    3. Mariano Ellis (ENFJ)
+    4. William Hansen (ENFJ)
+
+GROUP 74:
+    1. Christopher Hamilton (INFJ)
+    2. David Kessinger (INFJ)
+    3. Kevin Slick (ESTJ)
+    4. Carl Yentsch (ESFP)
+
+GROUP 75:
+    1. Thomas Lopez (INTJ)
+    2. Max Barberio (INTJ)
+    3. Stephen Hurley (ENFJ)
+    4. Dion Langston (ENFJ)
+
+GROUP 76:
+    1. Steven Moe (INTP)
+    2. Harry Dombrowski (INTP)
+    3. Jason Sanmartin (INFJ)
+    4. Nelson Smock (INFJ)
+
+GROUP 77:
+    1. Leroy Trudnowski (INTP)
+    2. Clarence Rowe (INTP)
+    3. Ramon Davis (ENTJ)
+    4. Jeremy Johnson (INTJ)
+
+GROUP 78:
+    1. Scott Barker (ENTJ)
+    2. Charlie Henrickson (ENFP)
+    3. Timothy Purgason (ENFP)
+    4. Ben Speight (ENTJ)
+
+GROUP 79:
+    1. Anthony Hamm (INTP)
+    2. Alan Rios (INTP)
+    3. Jeremy Pate (INTJ)
+    4. Bob Ellis (INTJ)
+
+GROUP 80:
+    1. Hiram Carden (INTP)
+    2. Mario Fischer (INTP)
+    3. Abel Mosley (INTJ)
+    4. Russell Hanrahan (INTJ)
+
+GROUP 81:
+    1. James Williams (INTP)
+    2. Ronald Summerlin (ENTJ)
+    3. Jason Knight (INTJ)
+    4. Thomas Bell (INTJ)
+
+GROUP 82:
+    1. Jeff Moss (ENTJ)
+    2. Stephen Hirth (ENTJ)
+    3. Bruno Edwards (INTJ)
+    4. Randy Boyd (INTP)

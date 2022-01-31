@@ -97,7 +97,7 @@ def grouping_algorithm(student_data, members_per_group, duplicate_personality_li
     return successfully_matched_groups_of_students, ungrouped_students
 
 
-student_personalities_path = "assets/studentPersonalities.txt"
+student_personalities_path = "assets/fakeStudents.txt"
 student_data = open(
     student_personalities_path, 'r').readlines()
 student_data = list(map(lambda student: student.strip(
@@ -118,39 +118,39 @@ for i in range(3, members_per_group+1):
             ungrouped_students, members_per_group, i)
         less_perfect_groups.append(imperfectly_matched_groups_of_students)
 
+with open('result.txt', 'w') as result:
 
-for group_of_groups in less_perfect_groups:
-    if group_of_groups:
-        print("Found", len(group_of_groups), "groups:")
-        for group in group_of_groups:
-            print('   ', group)
-        print()
+    for group_of_groups in less_perfect_groups:
+        if group_of_groups:
+            print("Found", len(group_of_groups), "groups:", file=result)
+            for group in group_of_groups:
+                print('   ', group, file=result)
+            print("", file=result)
 
-print("Still ungrouped:")
-print('   ', len(ungrouped_students), ungrouped_students)
-
-
-'''
-For our final step, we will output our results while distinguishing between the perfect groups and the flawed groups.'''
+    print("Still ungrouped:", file=result)
+    print('   ', len(ungrouped_students), ungrouped_students, file=result)
 
 
-print('\n'*1, '*'*25, '\n'*1)
+    '''
+    For our final step, we will output our results while distinguishing between the perfect groups and the flawed groups.'''
 
-print(
-    f"Formed {len(successfully_matched_groups_of_students)} Compatible Groups:")
+    print('\n'*1, '*'*25, '\n'*1, file=result)
 
-group_count = 1
-grouped_students = []
-for group in successfully_matched_groups_of_students:
-    print(f"\nGROUP {group_count}:")
-    group_count += 1
+    print(
+        f"Formed {len(successfully_matched_groups_of_students)} Compatible Groups:", file=result)
 
-    for student in group:
-        line = '    ' + str(group.index(student)+1) + '. ' + \
-            student[1] + ' ' + f"({student[0]})"
-        print(line)
+    group_count = 1
+    grouped_students = []
+    for group in successfully_matched_groups_of_students:
+        print(f"\nGROUP {group_count}:", file=result)
+        group_count += 1
 
-        if student in grouped_students:
-            print("ERROR – DUPLICATE:", student)
-        else:
-            grouped_students.append(student)
+        for student in group:
+            line = '    ' + str(group.index(student)+1) + '. ' + \
+                student[1] + ' ' + f"({student[0]})"
+            print(line, file=result)
+
+            if student in grouped_students:
+                print("ERROR – DUPLICATE:", student, file=result)
+            else:
+                grouped_students.append(student)
