@@ -1,3 +1,6 @@
+import ast
+
+
 def grouping_algorithm(student_data, members_per_group, duplicate_personality_limit):
     '''
     student_data is a list of students whom we want to place into groups. Each student is a list containing their [personality, full name]
@@ -6,24 +9,8 @@ def grouping_algorithm(student_data, members_per_group, duplicate_personality_li
     '''
 
     # for each personality, which is the first term in each list, the three most compatible personalities are listem in the second term of each list.
-    compatibility_chart = [
-        ['ESFP', ['ESFJ', 'ESTP', 'ISFP']],
-        ['ESTP', ['ESTJ', 'ESFP', 'INFJ']],
-        ['ESTJ', ['ESTP', 'ESFJ', 'ISTJ']],
-        ['ESFJ', ['ISTP', 'ESTJ', 'ESTP']],
-        ['ISTJ', ['INFJ', 'ISTP', 'ISFJ']],
-        ['ISTP', ['ISFP', 'INFP', 'ESFP']],
-        ['ISFJ', ['ESFJ', 'ISFP', 'ISTJ']],
-        ['ISFP', ['ESFP', 'ISFJ', 'ESFJ']],
-        ['ENTJ', ['INTJ', 'ENTP', 'ENFJ']],
-        ['ENTP', ['ENTJ', 'ENFP', 'ENFJ']],
-        ['ENFJ', ['ENFJ', 'INFJ', 'ENFP']],
-        ['ENFP', ['ENTJ', 'INTJ', 'INTP']],
-        ['INTJ', ['INTP', 'INFJ', 'INFP']],
-        ['INTP', ['ENTP', 'INFP', 'ENFP']],
-        ['INFJ', ['ISTJ', 'INFP', 'INTJ']],
-        ['INFP', ['INFJ', 'ISFJ', 'ENFJ']]
-    ]
+    with open('assets/compatibilityList.txt', 'r') as f:
+        compatibility_chart = ast.literal_eval(f.read())
 
     '''
     First, we want to figure out, from our data, which students are compatible with each other.
@@ -102,11 +89,10 @@ def grouping_algorithm(student_data, members_per_group, duplicate_personality_li
     return successfully_matched_groups_of_students, ungrouped_students
 
 
-student_personalities_path = "assets/fakeStudents.txt"
-student_data = open(
-    student_personalities_path, 'r').readlines()
-student_data = list(map(lambda student: student.strip(
-).split(' ', 1), student_data))
+student_personalities_path = "assets/students.txt"
+student_data = open(student_personalities_path, 'r').readlines()
+student_data = list(
+    map(lambda student: student.strip().split(' ', 1), student_data))
 
 members_per_group = 4
 
@@ -135,14 +121,14 @@ with open('result.txt', 'w') as result:
     print("Still ungrouped:", file=result)
     print('   ', len(ungrouped_students), ungrouped_students, file=result)
 
-
     '''
     For our final step, we will output our results while distinguishing between the perfect groups and the flawed groups.
     '''
 
     print('\n'*1, '*'*25, '\n'*1, file=result)
 
-    print(f"Formed {len(successfully_matched_groups_of_students)} Compatible Groups:", file=result)
+    print(
+        f"Formed {len(successfully_matched_groups_of_students)} Compatible Groups:", file=result)
 
     group_count = 1
     grouped_students = []

@@ -1,4 +1,4 @@
-f = open('assets/compatiblePersonalitiesArticle.txt', 'r')
+f = open('assets/information/article.txt', 'r')
 
 numbers = []
 for i in range(1, 17):
@@ -14,4 +14,4 @@ for line in f:
         data.append([info[0], info[1].split(", ")])
     last = line
 
-open("assets/compatiblePersonalitiesNestedList.txt", 'w').write(f"{data}")
+open("assets/compatibilityList.txt", 'w').write(f"{data}")
